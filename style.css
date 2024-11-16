@@ -1,0 +1,153 @@
+/* karla-regular - latin */
+
+@font-face {
+  font-display: swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Karla";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./fonts/karla-v31-latin-regular.woff2") format("woff2");
+  /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* karla-700 - latin */
+
+@font-face {
+  font-display: swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Karla";
+  font-style: normal;
+  font-weight: 700;
+  src: url("./fonts/karla-v31-latin-700.woff2") format("woff2");
+  /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Karla", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 32px;
+  padding-bottom: 32px;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100vh;
+  background-color: #e0f1e8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box {
+  width: 100%;
+  max-width: 736px;
+  background-color: #fff;
+  border-radius: 16px;
+  padding: 40px;
+}
+
+.name-input {
+  display: flex;
+  flex-direction: column;
+}
+
+.names {
+  width: 320px;
+  height: 51px;
+  margin-bottom: 24px;
+  margin-top: 8px;
+}
+
+.name-inputs {
+  display: flex;
+}
+
+.email-place {
+  width: 656px;
+  height: 51px;
+  margin-top: 8px;
+}
+
+.email {
+  margin-top: 24px;
+}
+
+.query {
+  margin-top: 24px;
+  margin-bottom: 16px;
+}
+
+.queries {
+  display: flex;
+  gap: 16px;
+}
+
+.query-inputs {
+  margin-top: 24px;
+}
+
+.first-query,
+.second-query {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #86a2a5;
+  width: 320px;
+  height: 51px;
+  border-radius: 8px;
+  gap: 12px;
+}
+
+input {
+  border: 1px solid #86a2a5;
+  border-radius: 8px;
+}
+
+.message-input {
+  margin-top: 24px;
+}
+
+textarea {
+  width: 100%;
+  max-width: 656px;
+  height: 105px;
+  resize: none;
+  border-radius: 8px;
+  border-color: #86a2a5;
+  margin-bottom: 40px;
+  margin-top: 8px;
+}
+
+.checkbox-input {
+  display: flex;
+  gap: 16px;
+}
+
+.btn {
+  text-decoration: none;
+  color: white;
+  border-radius: 8px;
+  background-color: #0c7d69;
+  width: 656px;
+  height: 59px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+}
